@@ -1,9 +1,26 @@
-img {
-    width: 500px;
-    height: 500px;
+#name {
+    transition: transform .3s ease-out;
+    height: 50px;
 }
-
-body {
-    text-align: center;
-    font-family: "Eater";
+#name:hover {
+    transform: scale(1.30);
+}
+#youtube:hover {
+    transform: scale(1.30);
+}
+#youtube {
+    transition: transform .2s ease-out;
+    height: 30px;
+}
+#mail {
+    transition: transform .2s ease-out;
+    height: 40px;
+}
+#mail:hover {
+    transform: scale(1.3)
+}
+center {
+    font-family: cursive;
+    font-size: 30px;
+    background-color: red;
 }
